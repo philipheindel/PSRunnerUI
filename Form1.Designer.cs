@@ -1,4 +1,4 @@
-namespace PSRunnerUI
+namespace RunnerUI
 {
     partial class Form1
     {

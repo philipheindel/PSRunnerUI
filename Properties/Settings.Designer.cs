@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PSRunnerUI.Properties
+namespace RunnerUI.Properties
 {
 
 
