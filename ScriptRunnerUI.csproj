@@ -7,8 +7,8 @@
     <ProjectGuid>{21E45440-D388-426C-A74B-360D528080D8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RunnerUI</RootNamespace>
-    <AssemblyName>RunnerUI</AssemblyName>
+    <RootNamespace>ScriptRunnerUI</RootNamespace>
+    <AssemblyName>ScriptRunnerUI</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

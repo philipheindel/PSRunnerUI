@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RunnerUI
+namespace ScriptRunnerUI
 {
     public partial class MainForm : Form
     {
