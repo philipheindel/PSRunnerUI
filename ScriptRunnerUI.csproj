@@ -45,15 +45,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainForm.cs">
+    <Compile Include="src\Forms\AboutBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="src\Forms\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MainForm.resx">
+    <Compile Include="src\UserControls\CheckBoxArg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="src\UserControls\CheckBoxArg.Designer.cs">
+      <DependentUpon>CheckBoxArg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\UserControls\TextArg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="src\UserControls\TextArg.Designer.cs">
+      <DependentUpon>TextArg.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="src\Forms\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -66,6 +87,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="src\UserControls\CheckBoxArg.resx">
+      <DependentUpon>CheckBoxArg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\UserControls\TextArg.resx">
+      <DependentUpon>TextArg.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,6 +106,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,4 +1,5 @@
-using System;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,13 +9,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ScriptRunnerUI
+namespace ScriptRunnerUI.src.UserControls
 {
-    public partial class MainForm : Form
+    public partial class CheckBoxArg : UserControl
     {
-        public MainForm()
+
+        private Hashtable checkBoxes;
+
+        public CheckBoxArg()
         {
             InitializeComponent();
+            this.checkBoxes = new Hashtable();
         }
     }
 }
