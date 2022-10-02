@@ -117,4 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADPSURBVEhLYxgFgxfoztdN0F6orQnlUh9oL9A+o7NA5zsQ
+        l4euCmWGClMPQC34D8bzdU5qzdXSgkpRByBZ8AlKU9c3MAuAtKP2fO2ZQF/8g1p0Xmu+lgFUGfkAZoHu
+        Al1jEF9nno4r0JKHUEt/AS3tMJ5pzApWTA5AtwAEVBar8FHNN9gsgAGgnBvMN0D8HWhJKlSKeDAgFmAE
+        0XydE2RnRnQL0F0NxJQlWZgFQBo1mVLiamQAswCIaZvRwJharkYGUAtoV9jRvLgeBXQCDAwA5wOqKHV3
+        8I4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABLSURBVEhL7ZSxDQAgDMPy/1kgLoB/oEgdK0JZiSWPbrZC
+        fMoAmjkzdqB6zokO3Og5JxtogKIBigYozwNZPefsxxUdOGlN8Vz8BbAAJByuL7dypVIAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="toolStripButton3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC8SURBVEhL7ZMxCgIxFAW3EgtvoYWF3skTeRMtFFZPoDfw
+        AhaihTcQnYEEomxjzBZCBgbCz/J+fsg2lb4Z4hpPOLZQkgFu8Rk84wSL4Ml3aPAVj2Ftk58nMbxFA+84
+        wxEeQs3ryiYN1wcu0CZOYm2FWaThhi3D2iZO4tpr87uv+Qz3xBKbqPtZ4elrueEcZYoXtL7H7PAN1vA3
+        /jdcup5i+hNlP8WIIdpLuMQGUuxaUmKD1GLh0mt4pYOmeQFR02C1mzZYCAAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>

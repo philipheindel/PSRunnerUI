@@ -16,7 +16,7 @@ namespace ScriptRunnerUI.src.UserControls
         public ScriptPanel()
         {
             InitializeComponent();
-            argumentsPanel = this.controlSplitContainer.Panel2;
+            //argumentsPanel = this.controlSplitContainer.Panel2;
         }
 
         public SplitterPanel ArgumentsPanel { get { return argumentsPanel; } }

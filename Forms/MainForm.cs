@@ -30,18 +30,18 @@ namespace ScriptRunnerUI
             TabPage newScriptTab = new TabPage("New script");
             ScriptPanel newScriptPanel = new ScriptPanel();
             newScriptPanel.Dock = DockStyle.Fill;
-            TextArg ta1 = new TextArg();
-            ta1.Dock = DockStyle.Top;
-            ta1.HeaderName = "Domain";
-            newScriptPanel.ArgumentsPanel.Controls.Add(ta1);
-            TextArg ta2 = new TextArg();
-            ta2.Dock = DockStyle.Top;
-            ta2.HeaderName = "Username";
-            newScriptPanel.ArgumentsPanel.Controls.Add(ta2);
+            //TextArg ta1 = new TextArg();
+            //ta1.Dock = DockStyle.Top;
+            //ta1.HeaderName = "Domain";
+            //newScriptPanel.ArgumentsPanel.Controls.Add(ta1);
+            //TextArg ta2 = new TextArg();
+            //ta2.Dock = DockStyle.Top;
+            //ta2.HeaderName = "Username";
+            //newScriptPanel.ArgumentsPanel.Controls.Add(ta2);
 
             newScriptTab.Controls.Add(newScriptPanel);
             mainTabControl.TabPages.Add(newScriptTab);
-            //newScriptTab.SuspendLayout();
+            newScriptTab.SuspendLayout();
 
         }
     }
