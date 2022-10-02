@@ -1,6 +1,6 @@
-﻿namespace ScriptRunnerUI.src.UserControls
+﻿namespace ScriptRunnerUI.UserControls
 {
-    partial class CheckBoxArg
+    partial class CheckBoxParam
     {
         /// <summary> 
         /// Required designer variable.

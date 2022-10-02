@@ -1,4 +1,4 @@
-﻿namespace ScriptRunnerUI.src.UserControls
+﻿namespace ScriptRunnerUI.UserControls
 {
     partial class ScriptPanel
     {

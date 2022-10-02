@@ -8,17 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ScriptRunnerUI.src.UserControls
+namespace ScriptRunnerUI.UserControls
 {
     public partial class ScriptPanel : UserControl
     {
-        private SplitterPanel argumentsPanel;
+        private SplitterPanel parametersPanel;
         public ScriptPanel()
         {
             InitializeComponent();
             //argumentsPanel = this.controlSplitContainer.Panel2;
         }
 
-        public SplitterPanel ArgumentsPanel { get { return argumentsPanel; } }
+        public SplitterPanel ParametersPanel { get { return parametersPanel; } }
     }
 }

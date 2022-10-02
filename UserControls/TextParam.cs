@@ -8,15 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ScriptRunnerUI.src.UserControls
+namespace ScriptRunnerUI.UserControls
 {
-    public partial class TextArg : UserControl
+    public partial class TextParam : UserControl
     {
 
         private string inputText;
         private string headerName;
 
-        public TextArg()
+        public TextParam()
         {
             InitializeComponent();
             this.inputText = "";
@@ -30,7 +30,7 @@ namespace ScriptRunnerUI.src.UserControls
             set
             {
                 this.inputText = value;
-                this.textArgInput.Text = this.InputText;
+                this.textParamInput.Text = this.InputText;
             }
         }
 
@@ -40,7 +40,7 @@ namespace ScriptRunnerUI.src.UserControls
             set 
             { 
                 headerName = value;
-                this.textArgName.Text = this.headerName;
+                this.textParamName.Text = this.headerName;
             }
         }
 
@@ -50,7 +50,7 @@ namespace ScriptRunnerUI.src.UserControls
 
         private void textArgInput_TextChanged(object sender, EventArgs e)
         {
-            this.inputText = textArgInput.Text;
+            this.inputText = textParamInput.Text;
         }
 
         #endregion Event methods

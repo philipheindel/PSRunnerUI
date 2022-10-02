@@ -9,14 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ScriptRunnerUI.src.UserControls
+namespace ScriptRunnerUI.UserControls
 {
-    public partial class CheckBoxArg : UserControl
+    public partial class CheckBoxParam : UserControl
     {
 
         private Hashtable checkBoxes;
 
-        public CheckBoxArg()
+        public CheckBoxParam()
         {
             InitializeComponent();
             this.checkBoxes = new Hashtable();

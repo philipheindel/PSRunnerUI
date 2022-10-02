@@ -1,4 +1,4 @@
-﻿namespace ScriptRunnerUI.src.Forms
+﻿namespace ScriptRunnerUI.Forms
 {
     partial class AboutBox
     {

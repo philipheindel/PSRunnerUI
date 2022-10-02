@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ScriptRunnerUI.src.Forms
+namespace ScriptRunnerUI.Forms
 {
     partial class AboutBox : Form
     {

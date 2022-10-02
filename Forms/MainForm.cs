@@ -1,5 +1,5 @@
-using ScriptRunnerUI.src.Forms;
-using ScriptRunnerUI.src.UserControls;
+using ScriptRunnerUI.Forms;
+using ScriptRunnerUI.UserControls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

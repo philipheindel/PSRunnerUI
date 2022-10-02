@@ -60,11 +60,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControls\CheckBoxArg.cs">
+    <Compile Include="UserControls\CheckBoxParam.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\CheckBoxArg.Designer.cs">
-      <DependentUpon>CheckBoxArg.cs</DependentUpon>
+    <Compile Include="UserControls\CheckBoxParam.Designer.cs">
+      <DependentUpon>CheckBoxParam.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\ScriptPanel.cs">
       <SubType>UserControl</SubType>
@@ -72,11 +72,11 @@
     <Compile Include="UserControls\ScriptPanel.Designer.cs">
       <DependentUpon>ScriptPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\TextArg.cs">
+    <Compile Include="UserControls\TextParam.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\TextArg.Designer.cs">
-      <DependentUpon>TextArg.cs</DependentUpon>
+    <Compile Include="UserControls\TextParam.Designer.cs">
+      <DependentUpon>TextParam.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Forms\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
@@ -94,14 +94,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UserControls\CheckBoxArg.resx">
-      <DependentUpon>CheckBoxArg.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\CheckBoxParam.resx">
+      <DependentUpon>CheckBoxParam.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\ScriptPanel.resx">
       <DependentUpon>ScriptPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\TextArg.resx">
-      <DependentUpon>TextArg.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\TextParam.resx">
+      <DependentUpon>TextParam.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
